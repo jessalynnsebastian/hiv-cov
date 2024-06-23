@@ -1,0 +1,89 @@
+# large files to ignore
+# BA
+BA_beast2/BA_sequences.fasta
+BA_beast2/BA-BA_sequences.trees
+BA_beast2/BA.log
+BA_beast2/BA.xml.state
+
+# BE
+BE_beast2/BE_sequences.fasta
+BE_beast2/BE-BE_sequences.trees
+BE_beast2/BE.log
+BE_beast2/BE.xml.state
+
+# BQ
+BQ_beast2/BQ_sequences.fasta
+BQ_beast2/BQ-BQ_sequences.trees
+BQ_beast2/BQ.log
+BQ_beast2/BQ.xml.state
+
+# FN
+FN_beast2/FN_sequences.fasta
+FN_beast2/FN-FN_sequences.trees
+FN_beast2/FN.log
+FN_beast2/FN.xml.state
+
+# XBB
+XBB_beast2/XBB_sequences.fasta
+XBB_beast2/XBB-XBB_sequences.trees
+XBB_beast2/XBB.log
+XBB_beast2/XBB.xml.state
+
+# other
+combined_meta.csv
+combined_seq_nomiss.fasta
+combined_seq.fasta
+
+slurm_scripts/
+results/
+prob_source/
+
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
+
+# pkgdown site
+docs/
+
+# translation temp files
+po/*~
+
+# RStudio Connect folder
+rsconnect/
